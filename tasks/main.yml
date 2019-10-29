@@ -1,3 +1,6 @@
 ---
-- include_tasks: set_host_name.yml
-- include_tasks: set_ssl_config.yml
+- fail:
+    msg: |
+      This module no longer maintain.
+      @see https://github.com/yukihiko-shinoda/ansible-role-host-name-amazon-linux
+      @see https://github.com/yukihiko-shinoda/ansible-role-ssl-certificate-amazon-linux
